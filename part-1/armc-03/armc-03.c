@@ -109,7 +109,7 @@ int main(void)
     /* Never exit as there is no OS to exit to! */
     while(1)
     {
-        for(tim = 0; tim < 500000; tim++)
+        for(tim = 0; tim < 2000000; tim++)
             ;
 
         /* Set the LED GPIO pin low ( Turn OK LED on for original Pi, and off
